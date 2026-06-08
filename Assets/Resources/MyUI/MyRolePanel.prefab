@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 3962907872333031832}
   - component: {fileID: 1330526701239532451}
   m_Layer: 5
-  m_Name: Def
+  m_Name: DefText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 7622257105850298577}
   - component: {fileID: 3190446889096438494}
   m_Layer: 5
-  m_Name: XingYun
+  m_Name: XingYunText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 5581929951724144355}
   - component: {fileID: 824376579667866159}
   m_Layer: 5
-  m_Name: Close
+  m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 7698729265146293638}
   - component: {fileID: 6521724634844799995}
   m_Layer: 5
-  m_Name: LVLabel
+  m_Name: LevelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1123,7 +1123,7 @@ GameObject:
   - component: {fileID: 1546270276206509473}
   - component: {fileID: 2343339181335545474}
   m_Layer: 5
-  m_Name: Hp
+  m_Name: HpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1683,7 +1683,7 @@ GameObject:
   - component: {fileID: 1366367592942555310}
   - component: {fileID: 8157379649695904428}
   m_Layer: 5
-  m_Name: BaoJi
+  m_Name: BaoJiText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2102,7 +2102,7 @@ GameObject:
   - component: {fileID: 8735266259790394962}
   - component: {fileID: 3783521852681489154}
   m_Layer: 5
-  m_Name: Atk
+  m_Name: AtkText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2737,7 +2737,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6945214690906358312}
   - component: {fileID: 7721965119982918495}
-  - component: {fileID: 4856331263646770788}
+  - component: {fileID: 8465084559062857498}
+  - component: {fileID: 4550339690948475854}
   m_Layer: 5
   m_Name: MyRolePanel
   m_TagString: Untagged
@@ -2773,7 +2774,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8231083731058305836}
   m_CullTransparentMesh: 1
---- !u!114 &4856331263646770788
+--- !u!114 &8465084559062857498
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2782,7 +2783,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8231083731058305836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0b749e82c754cbcbc9b97425115783, type: 3}
+  m_Script: {fileID: 11500000, guid: ee3dff630746045dd889787be0bdea5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   closeButton: {fileID: 824376579667866159}
@@ -2794,6 +2795,18 @@ MonoBehaviour:
   baoJiText: {fileID: 8157379649695904428}
   shanBiText: {fileID: 2822737776325640878}
   xinYunText: {fileID: 3190446889096438494}
+--- !u!114 &4550339690948475854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8231083731058305836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a6972e340e04206a5200a0a36658fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8333164688598974147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,7 +2915,7 @@ GameObject:
   - component: {fileID: 1038622450511681737}
   - component: {fileID: 2822737776325640878}
   m_Layer: 5
-  m_Name: ShanBi
+  m_Name: ShanBiText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

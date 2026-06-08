@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class NormalMain : MonoBehaviour
 {
+    private void Start()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.M))

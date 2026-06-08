@@ -70,7 +70,7 @@ public class RolePanel : MonoBehaviour
         PlayerPrefs.SetInt("ShanBi", currentShanBi + newlevel);
         PlayerPrefs.SetInt("XinYun", currentXinYun + newlevel);
         //PlayerPrefs.Save();
-        
+
         //3.数据更新完，UI 也要同步
         UpdateInfo();
         MainPanel.Instance.UpdateInfo();
